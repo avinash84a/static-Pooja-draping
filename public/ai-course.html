@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="mr" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>१ डे प्रॅक्टिकल AI कार्यशाळा पुणे | 1 Day Practical AI Course (मराठी & हिंदी)</title>
+  <meta name="description" content="AI प्रत्येकासाठी! लहान व्यावसायिक, शिक्षक, पालक, गृहिणी व नोकरदारांसाठी सोप्या भाषेत १ दिवसाची प्रॅक्टिकल AI कार्यशाळा. १०-१२ Core AI टूल्स, ५ पिलर्स व ८ रिअल प्रोजेक्ट्स.">
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            maroon: {
+              50: '#fdf2f2',
+              100: '#fde8e8',
+              600: '#9b1c1c',
+              700: '#771d1d',
+              800: '#5c1717',
+              900: '#431212',
+            },
+            brand: {
+              50: '#eef2ff',
+              100: '#e0e7ff',
+              600: '#4f46e5',
+              700: '#4338ca',
+              800: '#3730a3',
+            }
+          },
+          fontFamily: {
+            devanagari: ['"Noto Sans Devanagari"', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Plus Jakarta Sans', 'Noto Sans Devanagari', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-[#FAF7F2] text-stone-800 antialiased selection:bg-indigo-100 selection:text-indigo-900">
+
+  <!-- Header Navigation -->
+  <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md shadow-sm border-b border-stone-200">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 py-3.5 flex items-center justify-between">
+      <a href="index.html" class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-full bg-gradient-to-tr from-blue-700 to-indigo-600 flex items-center justify-center text-white font-bold text-lg shadow-md">
+          AI
+        </div>
+        <div>
+          <span class="block text-base sm:text-lg font-extrabold text-stone-900 tracking-tight leading-tight">१ डे प्रॅक्टिकल AI कार्यशाळा</span>
+          <span class="block text-xs font-semibold text-stone-500">AI for Everyone | पुणे & ऑनलाइन</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="hidden md:flex items-center gap-6 text-sm font-semibold text-stone-700">
+        <a href="index.html" class="hover:text-indigo-600 transition-colors">मुख्यपृष्ठ</a>
+        <a href="saree-workshop.html" class="hover:text-indigo-600 transition-colors">साडी ड्रॅपिंग वर्कशॉप</a>
+        <a href="ai-course.html" class="text-indigo-700 font-bold border-b-2 border-indigo-700 pb-1">१ डे AI कोर्स</a>
+        <a href="contact.html" class="hover:text-indigo-600 transition-colors">संपर्क & पत्ता</a>
+      </nav>
+
+      <!-- Action -->
+      <div class="hidden sm:flex items-center gap-3">
+        <a href="tel:8446917187" class="text-sm font-bold text-stone-800">📞 84469 17187</a>
+        <a href="https://wa.me/918446917187?text=मला%20१%20डे%20AI%20कार्यशाळेबद्दल%20माहिती%20हवी%20आहे." 
+           target="_blank" 
+           class="inline-flex items-center gap-1.5 px-4 py-2 rounded-full bg-emerald-600 hover:bg-emerald-700 text-white text-xs sm:text-sm font-semibold shadow-sm transition-all">
+          <span>WhatsApp चॅट</span>
+        </a>
+      </div>
+
+      <!-- Mobile Button -->
+      <button id="menu-btn" class="md:hidden p-2 rounded-lg text-stone-600 hover:bg-stone-100">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+      </button>
+    </div>
+
+    <!-- Mobile Dropdown -->
+    <div id="mobile-menu" class="hidden md:hidden bg-white border-b border-stone-200 px-4 pt-2 pb-4 space-y-2 text-sm font-medium">
+      <a href="index.html" class="block py-2 text-stone-700 border-b border-stone-100">मुख्यपृष्ठ</a>
+      <a href="saree-workshop.html" class="block py-2 text-stone-700 border-b border-stone-100">साडी ड्रॅपिंग वर्कशॉप</a>
+      <a href="ai-course.html" class="block py-2 text-indigo-700 font-bold border-b border-stone-100">१ डे AI कोर्स</a>
+      <a href="contact.html" class="block py-2 text-stone-700 border-b border-stone-100">संपर्क & पत्ता</a>
+    </div>
+  </header>
+
+  <!-- Page Header -->
+  <section class="py-12 bg-gradient-to-r from-stone-900 via-indigo-950 to-stone-900 text-white">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 text-center space-y-3">
+      <span class="inline-block px-3 py-1 rounded-full bg-indigo-500/20 text-indigo-300 text-xs font-bold uppercase tracking-wider border border-indigo-500/30">
+        कोणतेही कोडिंग नाही • सोपी मराठी & हिंदी भाषा
+      </span>
+      <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white">१ डे प्रॅक्टिकल AI कार्यशाळा (AI Course)</h1>
+      <p class="text-stone-300 max-w-2xl mx-auto text-sm sm:text-base leading-relaxed">
+        AI फक्त IT किंवा इंजिनियर्ससाठी नाही — AI प्रत्येकासाठी आहे! व्यवसाय वाढवा, कामे १० पट वेगाने करा आणि दररोज २ ते ३ तास वाचवा.
+      </p>
+      <div class="pt-2 flex items-center justify-center gap-4 text-xs sm:text-sm font-semibold text-indigo-200">
+        <span>⏱️ १ पूर्ण दिवस (सकाळी १०:३० ते ५:३०)</span>
+        <span>•</span>
+        <span>💻 प्रॅक्टिकल हँड्स-ऑन</span>
+        <span>•</span>
+        <span>💰 फी: ₹१,९९९/-</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Who is this for? -->
+  <section class="py-12 bg-white border-b border-stone-200">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      
+      <div class="text-center max-w-xl mx-auto mb-8 space-y-1">
+        <span class="text-xs font-bold uppercase tracking-wider text-indigo-600">कोणासाठी आहे हा कोर्स?</span>
+        <h2 class="text-2xl font-extrabold text-stone-900">प्रत्येकाच्या गरजेनुसार AI चा वापर</h2>
+      </div>
+
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 text-center">
+        <div class="p-4 rounded-xl bg-[#FAF7F2] border border-stone-200">
+          <div class="text-2xl mb-1">🏪</div>
+          <h4 class="font-bold text-xs sm:text-sm text-stone-800">लहान व्यावसायिक</h4>
+          <p class="text-[11px] text-stone-500 mt-1">मार्केटिंग व ग्राहक संवाद</p>
+        </div>
+        <div class="p-4 rounded-xl bg-[#FAF7F2] border border-stone-200">
+          <div class="text-2xl mb-1">👩‍🏫</div>
+          <h4 class="font-bold text-xs sm:text-sm text-stone-800">शिक्षक & प्राध्यापक</h4>
+          <p class="text-[11px] text-stone-500 mt-1">नोट्स, पेपर्स व प्रेझेंटेशन्स</p>
+        </div>
+        <div class="p-4 rounded-xl bg-[#FAF7F2] border border-stone-200">
+          <div class="text-2xl mb-1">🏠</div>
+          <h4 class="font-bold text-xs sm:text-sm text-stone-800">गृहिणी & पालक</h4>
+          <p class="text-[11px] text-stone-500 mt-1">मुलांचा अभ्यास व नियोजन</p>
+        </div>
+        <div class="p-4 rounded-xl bg-[#FAF7F2] border border-stone-200">
+          <div class="text-2xl mb-1">🎓</div>
+          <h4 class="font-bold text-xs sm:text-sm text-stone-800">विद्यार्थी & तरुण</h4>
+          <p class="text-[11px] text-stone-500 mt-1">करिअर, रिझ्युमे, स्किल्स</p>
+        </div>
+        <div class="p-4 rounded-xl bg-[#FAF7F2] border border-stone-200">
+          <div class="text-2xl mb-1">💼</div>
+          <h4 class="font-bold text-xs sm:text-sm text-stone-800">ऑफिस कर्मचारी</h4>
+          <p class="text-[11px] text-stone-500 mt-1">ईमेल, एक्सेल, ऑटोमेशन</p>
+        </div>
+        <div class="p-4 rounded-xl bg-[#FAF7F2] border border-stone-200">
+          <div class="text-2xl mb-1">🎵</div>
+          <h4 class="font-bold text-xs sm:text-sm text-stone-800">क्रिएटर्स & कलाकार</h4>
+          <p class="text-[11px] text-stone-500 mt-1">व्हॉईस, स्क्रिप्ट्स, व्हिडिओ</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 5 Pillars of AI -->
+  <section class="py-14 bg-[#FAF7F2]">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      
+      <div class="text-center max-w-2xl mx-auto mb-10 space-y-2">
+        <span class="text-xs font-bold uppercase tracking-wider text-indigo-600">अभ्यासक्रमाची रचना</span>
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-stone-900">AI चे ५ मुख्य पिलर्स (5 Pillars)</h2>
+        <p class="text-sm text-stone-600">या ५ भागांमध्ये संपूर्ण AI चा पाया आणि प्रत्यक्ष वापर शिकवला जातो.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4">
+        
+        <div class="bg-white p-5 rounded-2xl border border-stone-200 shadow-xs flex flex-col justify-between">
+          <div>
+            <span class="w-8 h-8 rounded-lg bg-indigo-50 text-indigo-700 font-bold text-xs flex items-center justify-center mb-3">०१</span>
+            <h3 class="font-bold text-stone-900 text-base mb-1">समजा (Understand)</h3>
+            <p class="text-xs text-stone-600 leading-relaxed">
+              AI नक्की काय आहे, ते कसे काम करते, प्रॉम्प्ट इंजिनिअरिंगचे नियम आणि सर्वोत्तम उत्तरे मिळवण्याची पद्धत.
+            </p>
+          </div>
+        </div>
+
+        <div class="bg-white p-5 rounded-2xl border border-stone-200 shadow-xs flex flex-col justify-between">
+          <div>
+            <span class="w-8 h-8 rounded-lg bg-indigo-50 text-indigo-700 font-bold text-xs flex items-center justify-center mb-3">०२</span>
+            <h3 class="font-bold text-stone-900 text-base mb-1">संवाद साधा (Communicate)</h3>
+            <p class="text-xs text-stone-600 leading-relaxed">
+              ChatGPT, Claude, Google Gemini आणि Perplexity शी प्रभावी संवाद साधून स्वतःचे काम करून घेणे.
+            </p>
+          </div>
+        </div>
+
+        <div class="bg-white p-5 rounded-2xl border border-stone-200 shadow-xs flex flex-col justify-between">
+          <div>
+            <span class="w-8 h-8 rounded-lg bg-indigo-50 text-indigo-700 font-bold text-xs flex items-center justify-center mb-3">०३</span>
+            <h3 class="font-bold text-stone-900 text-base mb-1">काम करा (Work & Business)</h3>
+            <p class="text-xs text-stone-600 leading-relaxed">
+              व्यावसायिक ईमेल्स, लेटर्स, डेटा अनालिसिस, बिझनेस प्रपोजल्स आणि कस्टमर रिप्लाय ऑटोमॅटिक तयार करणे.
+            </p>
+          </div>
+        </div>
+
+        <div class="bg-white p-5 rounded-2xl border border-stone-200 shadow-xs flex flex-col justify-between">
+          <div>
+            <span class="w-8 h-8 rounded-lg bg-indigo-50 text-indigo-700 font-bold text-xs flex items-center justify-center mb-3">०४</span>
+            <h3 class="font-bold text-stone-900 text-base mb-1">निर्मिती करा (Create)</h3>
+            <p class="text-xs text-stone-600 leading-relaxed">
+              Canva AI द्वारे पोस्टर्स डिझाइन, Gamma द्वारे १ मिनिटात प्रेझेंटेशन, ElevenLabs द्वारे व्हॉईस क्लोनिंग.
+            </p>
+          </div>
+        </div>
+
+        <div class="bg-white p-5 rounded-2xl border border-stone-200 shadow-xs flex flex-col justify-between">
+          <div>
+            <span class="w-8 h-8 rounded-lg bg-indigo-50 text-indigo-700 font-bold text-xs flex items-center justify-center mb-3">०५</span>
+            <h3 class="font-bold text-stone-900 text-base mb-1">ऑटोमेशन (Automate)</h3>
+            <p class="text-xs text-stone-600 leading-relaxed">
+              कंटाळवाणी व वेळखाऊ कामे स्वयंचलित करणे. स्वतःचा कस्टम AI बॉट आणि दैनंदिन रूटीन सेट करणे.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 12 Core AI Tools -->
+  <section class="py-14 bg-white border-y border-stone-200">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      
+      <div class="text-center max-w-2xl mx-auto mb-10 space-y-2">
+        <span class="text-xs font-bold uppercase tracking-wider text-indigo-600">टूल्सचे प्रात्यक्षिक</span>
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-stone-900">१०-१२ Core AI टूल्सचे प्रत्यक्ष प्रशिक्षण</h2>
+        <p class="text-sm text-stone-600">फक्त थिअरी नाही — लॅपटॉप किंवा मोबाईलवरून थेट वापरून पाहणार.</p>
+      </div>
+
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+        
+        <div class="p-4 rounded-xl bg-[#FAF7F2] border border-stone-200">
+          <span class="font-bold text-indigo-700 text-sm block">१. ChatGPT</span>
+          <span class="text-xs text-stone-500">कंटेंट, आयडियाज व स्मार्ट असिस्टंट</span>
+        </div>
+
+        <div class="p-4 rounded-xl bg-[#FAF7F2] border border-stone-200">
+          <span class="font-bold text-indigo-700 text-sm block">२. Google Gemini</span>
+          <span class="text-xs text-stone-500">गुगल इकोसिस्टम, रिसर्च व इमेज ॲनालिसिस</span>
+        </div>
+
+        <div class="p-4 rounded-xl bg-[#FAF7F2] border border-stone-200">
+          <span class="font-bold text-indigo-700 text-sm block">३. Anthropic Claude</span>
+          <span class="text-xs text-stone-500">लांबलचक कागदपत्रे व अचूक लेखन</span>
+        </div>
+
+        <div class="p-4 rounded-xl bg-[#FAF7F2] border border-stone-200">
+          <span class="font-bold text-indigo-700 text-sm block">४. Perplexity AI</span>
+          <span class="text-xs text-stone-500">गूगलपेक्षा १० पट वेगाने संदर्भसहित रिसर्च</span>
+        </div>
+
+        <div class="p-4 rounded-xl bg-[#FAF7F2] border border-stone-200">
+          <span class="font-bold text-indigo-700 text-sm block">५. Canva Magic Studio</span>
+          <span class="text-xs text-stone-500">एका क्लिकवर पोस्टर्स, बॅनर व ग्राफिक्स</span>
+        </div>
+
+        <div class="p-4 rounded-xl bg-[#FAF7F2] border border-stone-200">
+          <span class="font-bold text-indigo-700 text-sm block">६. Gamma App</span>
+          <span class="text-xs text-stone-500">फक्त एका वाक्यातून पूर्ण PPT तयार करणे</span>
+        </div>
+
+        <div class="p-4 rounded-xl bg-[#FAF7F2] border border-stone-200">
+          <span class="font-bold text-indigo-700 text-sm block">७. ElevenLabs</span>
+          <span class="text-xs text-stone-500">नैसर्गिक AI व्हॉईस आणि ऑडिओ निर्मिती</span>
+        </div>
+
+        <div class="p-4 rounded-xl bg-[#FAF7F2] border border-stone-200">
+          <span class="font-bold text-indigo-700 text-sm block">८. ChatPDF / Humata</span>
+          <span class="text-xs text-stone-500">मोठमोठ्या PDF पुस्तकांशी थेट प्रश्नोत्तरे</span>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Registration Box -->
+  <section class="py-14 bg-[#FAF7F2]">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6">
+      <div class="bg-white rounded-2xl p-6 sm:p-8 border border-stone-200 shadow-md text-center space-y-5">
+        <span class="text-xs font-bold uppercase tracking-wider text-emerald-700">१ डे AI कोर्स</span>
+        <h3 class="text-2xl sm:text-3xl font-extrabold text-stone-900">तुमची जागा आजच आरक्षित करा</h3>
+        <p class="text-sm text-stone-600 max-w-lg mx-auto">
+          फी: <span class="font-bold text-stone-900 text-lg">फक्त ₹१,९९९/-</span> (साहित्य, हँडआउट्स, टूल्स यादी व लाइफटाइम सपोर्ट समाविष्ट)
+        </p>
+
+        <div class="pt-2 flex flex-col sm:flex-row items-center justify-center gap-3">
+          <a href="https://wa.me/918446917187?text=मला%20१%20डे%20AI%20कार्यशाळेसाठी%20नावनोंदणी%20करायची%20आहे." 
+             target="_blank" 
+             class="w-full sm:w-auto px-6 py-3.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-center shadow-sm transition-all flex items-center justify-center gap-2">
+            <span>WhatsApp द्वारे नोंदणी करा</span>
+          </a>
+          <a href="tel:8446917187" class="w-full sm:w-auto px-6 py-3.5 rounded-xl bg-stone-900 hover:bg-stone-800 text-white font-bold text-center transition-all">
+            कॉल करा: 84469 17187
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-stone-900 text-stone-400 py-10 border-t border-stone-800 text-sm">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div>
+        <h4 class="text-white font-bold text-base mb-2">१ डे प्रॅक्टिकल AI कार्यशाळा</h4>
+        <p class="text-xs text-stone-400">लहान व्यावसायिक, शिक्षक, पालक व सर्वसामान्य नागरिकांसाठी AI चे प्रत्यक्ष प्रशिक्षण.</p>
+      </div>
+      <div>
+        <h4 class="text-white font-bold text-base mb-2">नेव्हिगेशन</h4>
+        <ul class="text-xs space-y-1">
+          <li><a href="index.html" class="hover:text-white">मुख्यपृष्ठ (Home)</a></li>
+          <li><a href="saree-workshop.html" class="hover:text-white">साडी ड्रॅपिंग वर्कशॉप</a></li>
+          <li><a href="ai-course.html" class="hover:text-white">१ डे AI कोर्स</a></li>
+          <li><a href="contact.html" class="hover:text-white">संपर्क व पत्ता</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="text-white font-bold text-base mb-2">पत्ता</h4>
+        <p class="text-xs text-stone-400">साईप्रभा हाऊस, जगताप हॉस्पिटल समोर, सिंहगड रोड, आनंद नगर, पुणे ४११०५१</p>
+        <p class="text-xs text-amber-400 font-semibold mt-1">📞 84469 17187</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    if (menuBtn && mobileMenu) {
+      menuBtn.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+      });
+    }
+  </script>
+</body>
+</html>

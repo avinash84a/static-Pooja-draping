@@ -1,0 +1,20 @@
+{
+  "business": {
+    "name": "Pooja Saree Draping Pune",
+    "marathiName": "पूजा साडी ड्रॅपिंग पुणे",
+    "instructor": "पूजा पाटील (Pooja Patil)",
+    "phone": "84469 17187",
+    "whatsapp": "918446917187",
+    "rating": 5.0,
+    "reviewCount": 33,
+    "address": "Saiprabha House, Opposite Jagtap Hospital, Sinhgad Road, Nandadeep Society, Anand Nagar, Pune, Maharashtra 411051"
+  },
+  "workshop": {
+    "title": "1 डे साडी ड्रॅपिंग वर्कशॉप",
+    "instructor": "पूजा पाटील",
+    "nextDate": "आगामी शनिवार / रविवार",
+    "time": "सकाळी 10:30 ते संध्याकाळी 5:30",
+    "fee": "₹1,999/-",
+    "location": "Sinhgad Road, Anand Nagar, Pune"
+  }
+}

@@ -1,0 +1,548 @@
+{
+  "business": {
+    "name": "Pooja Saree Draping Pune",
+    "marathiName": "पूजा साडी ड्रॅपिंग पुणे",
+    "instructor": "पूजा पाटील (Pooja Patil)",
+    "tagline": "सुंदर साडी ड्रॅपिंग शिकूया, आत्मविश्वासाने साडी नेसूया!",
+    "welcomeMessage": "पूजा साडी ड्रॅपिंगमध्ये आपले मनःपूर्वक स्वागत!",
+    "rating": 5.0,
+    "reviewCount": 33,
+    "category": "Professional Saree Draping Workshop & Training Center",
+    "phone": "84469 17187",
+    "phoneRaw": "+918446917187",
+    "whatsapp": "918446917187",
+    "address": {
+      "building": "Saiprabha House",
+      "landmark": "Opposite Jagtap Hospital",
+      "street": "Sinhgad Road, Nandadeep Society",
+      "area": "Anand Nagar",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "pincode": "411051",
+      "fullAddress": "Saiprabha House, Opposite Jagtap Hospital, Sinhgad Road, Nandadeep Society, Anand Nagar, Pune, Maharashtra 411051",
+      "primaryLocation": "Sinhgad Road, Anand Nagar, Pune"
+    },
+    "timings": "दररोज सकाळी 10:00 ते संध्याकाळी 7:00 (पूर्व नोंदणी आवश्यक)",
+    "defaultWhatsAppMessage": "नमस्कार पूजा मॅडम,\nमला साडी ड्रॅपिंग वर्कशॉपबद्दल माहिती हवी आहे.\nकृपया मला पुढील workshop ची माहिती पाठवा."
+  },
+  "workshop": {
+    "title": "1 डे साडी ड्रॅपिंग वर्कशॉप",
+    "englishTitle": "1-Day Intensive Saree Draping Workshop",
+    "badge": "✨ मोस्ट पॉप्युलर वर्कशॉप ✨",
+    "instructor": "पूजा पाटील (Certified Saree Stylist & Trainer)",
+    "highlight": "गौरी महालक्ष्मीच्या सुंदर साडी ड्रॅपिंग प्रकारांचे प्रात्यक्षिकासह प्रशिक्षण",
+    "training": "गौरी महालक्ष्मीच्या 14 ते 15 सुंदर साडी ड्रॅपिंग प्रकारांचे प्रात्यक्षिकासह प्रशिक्षण",
+    "suitableFor": "उभारलेल्या तसेच बसलेल्या गौरीसाठी आणि सणांसारख्या विशेष प्रसंगांसाठी",
+    "nextBatchDate": "आगामी शनिवार / रविवार (Upcoming Weekend Batch)",
+    "timing": "सकाळी 10:30 ते संध्याकाळी 5:30 (पूर्ण दिवस प्रात्यक्षिक)",
+    "fee": "₹1,999/-",
+    "originalFee": "₹2,999/-",
+    "feeNote": "साहित्य, सराव साडी सपोर्ट व मार्गदर्शनासह",
+    "batchSize": "मर्यादित 8 ते 10 विद्यार्थिनींची छोटी बॅच (प्रत्येकीवर वैयक्तिक लक्ष)",
+    "venue": "साईप्रभा हाऊस, जगताप हॉस्पिटल समोर, सिंहगड रोड, आनंद नगर, पुणे - 411051",
+    "highlights": [
+      "14 ते 15 सुंदर पारंपरिक व डिझायनर साडी ड्रॅपिंग प्रकार",
+      "उभारलेल्या आणि बसलेल्या गौरीसाठी खास पॅटर्न",
+      "प्रत्यक्ष प्रॅक्टिकल हँड्स-ऑन प्रॅक्टिस (केवळ डेमो नाही)",
+      "परफेक्ट प्लीट्स, पिनिंग आणि बॉडी फिटिंग सिक्रेट्स",
+      "वर्कशॉप पूर्ण केल्याचे सहभाग प्रमाणपत्र (Certificate)",
+      "प्रश्नोत्तरे आणि वैयक्तिक चुका सुधारण्यासाठी पर्सनल अटेन्शन"
+    ]
+  },
+  "drapingStyles": [
+    {
+      "id": 1,
+      "nameMarathi": "उभारलेले गौरी पॅटर्न",
+      "nameEnglish": "Standing Gauri Pattern",
+      "category": "Gauri Mahalakshmi",
+      "desc": "उभारलेल्या गौरी मूर्तीसाठी अत्यंत मोहक, भव्य आणि पारंपरिक पद्धतीने नेसवलेला साडी पॅटर्न. मूर्तीची उंची आणि तोल सांभाळून साडी कशी घट्ट बसवावी याचे प्रत्यक्ष प्रशिक्षण.",
+      "image": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=800&q=80",
+      "accent": "पारंपरिक भव्यता",
+      "fabric": "सिल्क / पैठणी साडी",
+      "occasion": "गौरी महालक्ष्मी सण",
+      "difficulty": "प्रॅक्टिकल तंत्र"
+    },
+    {
+      "id": 2,
+      "nameMarathi": "बसलेले गौरी पॅटर्न",
+      "nameEnglish": "Seated Gauri Pattern",
+      "category": "Gauri Mahalakshmi",
+      "desc": "बसलेल्या गौरीसाठी व्यवस्थित बसणारा, अजिबात न घसरणारा आणि समोरून सुरेख प्लीट्स दिसणारा मनमोहक पारंपरिक प्रकार.",
+      "image": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=800&q=80",
+      "accent": "अचूक बैठक व प्लीट्स",
+      "fabric": "काठपदर / ब्रोकेड साडी",
+      "occasion": "गौरी पूजन",
+      "difficulty": "स्टेप-बाय-स्टेप"
+    },
+    {
+      "id": 3,
+      "nameMarathi": "रुक्मिणी पॅटर्न",
+      "nameEnglish": "Rukmini Divine Pattern",
+      "category": "Gauri Mahalakshmi",
+      "desc": "वारकरी संप्रदाय आणि विठू-रुक्मिणीच्या सात्त्विक सौंदर्याची अनुभूती देणारा, दोन्ही बाजूंनी सुबक काठ व सात्विक पदर असणारा पॅटर्न.",
+      "image": "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=800&q=80",
+      "accent": "सात्त्विक व मोहक",
+      "fabric": "पारंपरिक कॉटन / सिल्क",
+      "occasion": "पूजाविधी व देवकार्य",
+      "difficulty": "सुलभ व मोहक"
+    },
+    {
+      "id": 4,
+      "nameMarathi": "क्लासिक नऊवारी पॅटर्न",
+      "nameEnglish": "Classic Nauvari Pattern",
+      "category": "Maharashtrian Classic",
+      "desc": "महाराष्ट्राची खरी संस्कृती व शान असणारी पारंपरिक 9-वार साडी नेसण्याची शिस्तबद्ध, आरामदायक व चालताना सुटसुटीत पद्धत.",
+      "image": "https://images.unsplash.com/photo-1596704017254-9b121068fb31?auto=format&fit=crop&w=800&q=80",
+      "accent": "अस्सल महाराष्ट्रीयन शान",
+      "fabric": "9-वार पैठणी / येवला सिल्क",
+      "occasion": "लग्नकार्य व सण",
+      "difficulty": "मूलभूत नऊवारी"
+    },
+    {
+      "id": 5,
+      "nameMarathi": "पेशवाई मस्तानी नऊवारी",
+      "nameEnglish": "Peshwai Mastani Royal Nauvari",
+      "category": "Maharashtrian Classic",
+      "desc": "पेशवेकालीन राजघराण्यातील रुबाबदार थाट, पाठीमागे सुंदर पसरणारा काष्टा आणि पुढून नाजूक घोळ असणारा नवरीचा आवडता प्रकार.",
+      "image": "https://images.unsplash.com/photo-1610030469668-932ec596e730?auto=format&fit=crop&w=800&q=80",
+      "accent": "शाही राजेशाही लूक",
+      "fabric": "जरी काठ पैठणी / चंदेरी",
+      "occasion": "लग्न, नवरी व फोटोशूट",
+      "difficulty": "स्पेशल रॉयल ड्रॅपिंग"
+    },
+    {
+      "id": 6,
+      "nameMarathi": "ब्राह्मणी नऊवारी पॅटर्न",
+      "nameEnglish": "Brahmani Nauvari Pattern",
+      "category": "Maharashtrian Classic",
+      "desc": "अतिशय बारीक व शिस्तबद्ध ओच्या, पदराची विशिष्ट कलाकुसर आणि उच्च दर्जाची पारंपरिक नेसण, जी शरीरावर अगदी चपखल बसते.",
+      "image": "https://images.unsplash.com/photo-1583391733975-02542a22fa5a?auto=format&fit=crop&w=800&q=80",
+      "accent": "अचूक ओचा व प्लीट्स",
+      "fabric": "शुद्ध रेशमी नऊवारी",
+      "occasion": "धार्मिक विधी, मंगळागौर",
+      "difficulty": "बारीक तंत्रशुद्ध"
+    },
+    {
+      "id": 7,
+      "nameMarathi": "कोल्हापुरी काष्टा पॅटर्न",
+      "nameEnglish": "Kolhapuri Kashta Pattern",
+      "category": "Maharashtrian Classic",
+      "desc": "कोल्हापूरच्या मर्दानी आणि स्वाभिमानी परंपरेचे प्रतीक असलेला शिस्तबद्ध, चालताना अतिशय कम्फर्टेबल आणि सुबक काष्टा प्रकार.",
+      "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=800&q=80",
+      "accent": "स्वाभिमानी परंपरा",
+      "fabric": "इरकल / सुती नऊवारी",
+      "occasion": "पारंपरिक सण व मिरवणूक",
+      "difficulty": "कम्फर्टेबल व घट्ट"
+    },
+    {
+      "id": 8,
+      "nameMarathi": "नऊवारी काष्टा स्पेशल",
+      "nameEnglish": "Nauvari Kashta Special",
+      "category": "Maharashtrian Classic",
+      "desc": "सण, उत्सव, लग्नकार्य आणि मंगळागौरीसाठी आवश्यक असणारा मुख्य काष्टा प्रकार, जो नवशिक्यांसाठीही समजायला सोपा केला आहे.",
+      "image": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?auto=format&fit=crop&w=800&q=80",
+      "accent": "उत्सवी क्लासिक",
+      "fabric": "सिल्क / कॉटन नऊवारी",
+      "occasion": "सण, उत्सव व लग्न",
+      "difficulty": "स्टेप-बाय-स्टेप सराव"
+    },
+    {
+      "id": 9,
+      "nameMarathi": "राजलक्ष्मी पॅटर्न",
+      "nameEnglish": "Rajlaxmi Royal Drape",
+      "category": "Maharashtrian Classic",
+      "desc": "धोती स्टाईल आणि रुंद काठ असलेल्या साड्यांसाठी एक अतिशय प्रतिष्ठित व पारंपरिक लूक, जो विशेष कार्यक्रमात लक्षवेधी ठरतो.",
+      "image": "https://images.unsplash.com/photo-1566737236500-c8ac43014a67?auto=format&fit=crop&w=800&q=80",
+      "accent": "प्रतिष्ठित व राजेशाही",
+      "fabric": "कांजीवरम / गडवाल सिल्क",
+      "occasion": "रिसेप्शन, कौटुंबिक सोहळे",
+      "difficulty": "रॉयल फिनिशिंग"
+    },
+    {
+      "id": 10,
+      "nameMarathi": "डबल पदर अप्सरा पॅटर्न",
+      "nameEnglish": "Double Padar Apsara Pattern",
+      "category": "Designer Royal",
+      "desc": "उभारलेल्या मूर्ती किंवा उत्सवांसाठी गडद हिरवी साडी, खांद्यावरून मागे भव्य पंख्यासारखा पसरणारा लाल-सोनेरी पदर (डबल पदर), ठळक कंबरपट्टा, पारंपरिक दागिने आणि सुबक पुढील नक्षीदार प्लीट्स असलेला नजाकतदार अप्सरा लूक.",
+      "image": "https://images.unsplash.com/photo-1615886753866-79396abc446e?auto=format&fit=crop&w=800&q=80",
+      "accent": "डबल पदर अप्सरा",
+      "fabric": "गडद हिरवी सिल्क / पैठणी व कॉन्ट्रास्ट पदर",
+      "occasion": "गौरी महालक्ष्मी, विवाह व स्पेशल सोहळे",
+      "difficulty": "डबल पदर पंखा तंत्र"
+    },
+    {
+      "id": 11,
+      "nameMarathi": "देवसेना पॅटर्न",
+      "nameEnglish": "Devasena Royal Drape",
+      "category": "Designer Royal",
+      "desc": "सिनेमॅटिक व शाही थाट असणारा, रुबाबदार चाल आणि कम्फर्ट देणारा अत्यंत लोकप्रिय पॅटर्न, जो फोटोंमध्ये अप्रतिम दिसतो.",
+      "image": "https://images.unsplash.com/photo-1605296867304-46d5465a13f1?auto=format&fit=crop&w=800&q=80",
+      "accent": "रुबाबदार व सिनेमॅटिक",
+      "fabric": "सिल्क / ब्रोकेड साडी",
+      "occasion": "थीम वेडिंग, फोटोशूट",
+      "difficulty": "मॉडर्न रॉयल"
+    },
+    {
+      "id": 12,
+      "nameMarathi": "कमळ पॅटर्न",
+      "nameEnglish": "Kamal (Lotus) Pattern",
+      "category": "Designer Royal",
+      "desc": "कमळाच्या पाकळ्यांप्रमाणे निमुळत्या व एकावर एक सुंदर फुलणाऱ्या प्लेट्स असलेला अद्वितीय कलात्मक प्रकार, जो गौरीसाठीही वापरता येतो.",
+      "image": "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?auto=format&fit=crop&w=800&q=80",
+      "accent": "अद्वितीय कलात्मकता",
+      "fabric": "मऊ सिल्क / बनारसी साडी",
+      "occasion": "गौरी पूजन व विशेष सोहळा",
+      "difficulty": "अचूक प्लीटिंग कला"
+    },
+    {
+      "id": 13,
+      "nameMarathi": "कमर पंखा पॅटर्न",
+      "nameEnglish": "Kamar Pankha Pleated Accent",
+      "category": "Designer Royal",
+      "desc": "कमरेजवळ नाजूक पंख्यासारख्या सुबक प्लीट्सची नजाकत, जी साडीला अतिशय मोहक आणि वेस्टर्न-एथनिक फ्युजन रूप देते.",
+      "image": "https://images.unsplash.com/photo-1610030469830-4e386a3479d2?auto=format&fit=crop&w=800&q=80",
+      "accent": "नाजूक पंखा प्लीट्स",
+      "fabric": "सिल्क / ऑर्गेंझा साडी",
+      "occasion": "कॉकटेल, पार्टी, सण",
+      "difficulty": "प्री-प्लीटिंग तंत्र"
+    },
+    {
+      "id": 14,
+      "nameMarathi": "डबल पदर पॅटर्न",
+      "nameEnglish": "Double Padar Royal Pattern",
+      "category": "Designer Royal",
+      "desc": "दोन वेगळे पदर किंवा दोन कॉन्ट्रास्ट पदर आकर्षकरीत्या सेट करून तयार होणारा रिच, वजनदार आणि राजेशाही साडी लूक.",
+      "image": "https://images.unsplash.com/photo-1621784563330-caee0b138a00?auto=format&fit=crop&w=800&q=80",
+      "accent": "रिच व उठावदार पदर",
+      "fabric": "दोन कॉन्ट्रास्ट साड्या किंवा हेवी पल्लू",
+      "occasion": "शाही लग्न व रिसेप्शन",
+      "difficulty": "पदर बॅलन्सिंग"
+    },
+    {
+      "id": 15,
+      "nameMarathi": "गोल साडी आधुनिक पॅटर्न",
+      "nameEnglish": "Gol Saree Modern Drape",
+      "category": "Designer Royal",
+      "desc": "सुटसुटीत, आधुनिक आणि दिवसभर वावरायला अत्यंत हलकी व आरामदायी गोल साडी ड्रेपिंग पद्धत, ज्यामध्ये चालणे अतिशय सहज होते.",
+      "image": "https://images.unsplash.com/photo-1617627143778-592f155979ea?auto=format&fit=crop&w=800&q=80",
+      "accent": "आरामदायी व सोपी",
+      "fabric": "शिफॉन / जॉर्जेट / लिनन",
+      "occasion": "ऑफिस पार्टी, हळदीकुंकू",
+      "difficulty": "अतिशय सुलभ"
+    },
+    {
+      "id": 16,
+      "nameMarathi": "बटरफ्लाय / पंखा पदर पॅटर्न",
+      "nameEnglish": "Butterfly Pallu Designer Style",
+      "category": "Designer Royal",
+      "desc": "खांद्यावर नाजूक फुलपाखराच्या पंखांसारखी प्लीट्स रचना, ज्यामुळे ब्लाउजचे डिझाईन उठावदार दिसते आणि साडीला स्लिम व उंच लूक मिळतो.",
+      "image": "https://images.unsplash.com/photo-1610030469911-37d4f54d1aa4?auto=format&fit=crop&w=800&q=80",
+      "accent": "स्लिम व एलिगंट लूक",
+      "fabric": "नेट / जॉर्जेट / टिशू सिल्क",
+      "occasion": "संगीत, रिसेप्शन व पार्टी",
+      "difficulty": "पिनिंग व प्लीटिंग"
+    }
+  ],
+  "whyLearn": [
+    {
+      "icon": "GraduationCap",
+      "title": "Step-by-Step Guidance",
+      "titleMarathi": "पायरी-पायरीने मार्गदर्शन",
+      "desc": "प्रत्येक पॅटर्न सोप्या आणि सुटसुटीत पद्धतीने प्रत्यक्ष समजावून सांगितला जातो."
+    },
+    {
+      "icon": "Scissors",
+      "title": "Practical Training",
+      "titleMarathi": "प्रत्यक्ष प्रॅक्टिकल सराव",
+      "desc": "फक्त पाहण्याऐवजी स्वतःच्या हाताने प्रत्यक्ष साडी ड्रॅपिंगचा सराव करून घेतला जातो."
+    },
+    {
+      "icon": "Sparkles",
+      "title": "Multiple Draping Styles",
+      "titleMarathi": "14+ विविध साडी प्रकार",
+      "desc": "पारंपरिक, गौरी महालक्ष्मी आणि आधुनिक डिझायनर असे वैविध्यपूर्ण पॅटर्न."
+    },
+    {
+      "icon": "HeartHandshake",
+      "title": "Personal Attention",
+      "titleMarathi": "प्रत्येकीकडे वैयक्तिक लक्ष",
+      "desc": "मर्यादित बॅच साइज असल्याने शिकताना आवश्यक ते मार्गदर्शन व तत्काळ चुका दुरुस्त करणे."
+    },
+    {
+      "icon": "Award",
+      "title": "Confidence Building",
+      "titleMarathi": "आत्मविश्वास निर्मिती",
+      "desc": "स्वतः साडी नेसण्याचा आणि कोणत्याही प्रसंगी इतरांना साडी नेसवण्याचा परिपूर्ण आत्मविश्वास."
+    }
+  ],
+  "reviews": [
+    {
+      "author": "Aashok Nemane",
+      "meta": "10 reviews · 5 photos",
+      "rating": 5,
+      "time": "Google Verified Review",
+      "text": "A heartfelt thank you to Pooja Mam for being such a patient, encouraging, and wonderful mentor. Saree draping for Gauri idols always felt complex, but your step-by-step guidance, practical tips, and warm energy made learning an absolute joy. Thank you for helping me build both the skill and the confidence to drape with elegance!",
+      "photoHighlight": "Gauri Idol Draping Student"
+    },
+    {
+      "author": "Kajal Bokil",
+      "meta": "3 reviews · 2 photos",
+      "rating": 5,
+      "time": "Google Verified Review",
+      "text": "✨ My Experience & Review: मी हा saree prepleating class attend केला आणि खरंच खूप छान experience आला ❤️ Madam खूप patiently आणि step by step शिकवतात. प्रत्येक style अगदी सोप्या पद्धतीने समजावून सांगतात, त्यामुळे कोणालाही सहज शिकता येतं 👍 मला personally खूप confidence आला saree draping मध्ये, आणि नवीन style पण शिकायला मिळाले 🤩 Atmosphere खूप friendly आणि comfortable होता, त्यामुळे learning अजून enjoyable झालं. Thank you madam for such a wonderful training 🙏 Highly recommended to all ladies 💯 💕",
+      "photoHighlight": "Pre-pleating & Draping Workshop"
+    },
+    {
+      "author": "Google Student Reviewer",
+      "meta": "Local Guide · Pune",
+      "rating": 5,
+      "time": "Google Verified Review",
+      "text": "Madam खूप patiently आणि step by step शिकवतात. प्रत्येक style अगदी सोप्या पद्धतीने शिकवतात. पदर नीट कसा सेट करावा आणि साडी कशी घट्ट बसवावी हे प्रत्यक्ष समजले. साडी अगदी छान बांधून बसते.",
+      "photoHighlight": "Nauvari Saree Workshop"
+    },
+    {
+      "author": "Google Student Reviewer",
+      "meta": "Verified Student",
+      "rating": 5,
+      "time": "Google Verified Review",
+      "text": "The saree draping class too much amazing.. Pooja ma'am teach us properly and understand completely. She is a very good teacher to learn Saree Draping skills.",
+      "photoHighlight": "Practical Demonstration"
+    },
+    {
+      "author": "Google Student Reviewer",
+      "meta": "Verified Student",
+      "rating": 5,
+      "time": "Google Verified Review",
+      "text": "Had a wonderful saree draping experience! We really enjoyed the saree draping learning. Very professional guidance and warm friendly atmosphere in Anand Nagar Pune.",
+      "photoHighlight": "Festive Draping Batch"
+    }
+  ],
+  "workshopProcess": [
+    {
+      "step": "01",
+      "title": "Registration (नोंदणी)",
+      "desc": "आपली सीट आरक्षित करणे आणि वर्कशॉपसाठी पूर्वतयारीची माहिती मिळवणे."
+    },
+    {
+      "step": "02",
+      "title": "Introduction (ओळख)",
+      "desc": "विविध साड्यांचे फॅब्रिक्स, पदराचे प्रमाण, प्लीट्सचे प्रकार आणि मूलभूत नियम समजून घेणे."
+    },
+    {
+      "step": "03",
+      "title": "Demonstration (प्रात्यक्षिक)",
+      "desc": "पूजा मॅडमद्वारे प्रत्येक पॅटर्नचे थेट समोर बारकाईने प्रात्यक्षिक दाखवणे."
+    },
+    {
+      "step": "04",
+      "title": "Step-by-Step Practice (सराव)",
+      "desc": "प्रत्येक विद्यार्थिनीने स्वतः हाताने प्रत्यक्ष साडी नेसण्याचा आणि प्लीट्स बनवण्याचा सराव करणे."
+    },
+    {
+      "step": "05",
+      "title": "Personal Corrections (मार्गदर्शन)",
+      "desc": "फिटिंग, पदर, पिनिंग आणि फिनिशिंगमधील त्रुटी जागेवरच दुरुस्त करून घेणे."
+    },
+    {
+      "step": "06",
+      "title": "Final Look & Certificate (प्रमाणपत्र)",
+      "desc": "परिपूर्ण साडी लूक, फोटो सेशन आणि वर्कशॉप सहभाग प्रमाणपत्राचे वितरण."
+    }
+  ],
+  "galleryItems": [
+    {
+      "id": "g-1",
+      "title": "उभारलेले गौरी महालक्ष्मी साडी ड्रॅपिंग",
+      "subtitle": "उभारलेल्या मूर्तीसाठी भव्य नऊवारी व अलंकार",
+      "category": "Gauri Draping",
+      "categoryMarathi": "गौरी महालक्ष्मी",
+      "image": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=1000&q=80"
+    },
+    {
+      "id": "g-2",
+      "title": "बसलेले गौरी साडी पॅटर्न",
+      "subtitle": "अचूक बैठक, न घसरणाऱ्या प्लेट्स व नजाकत",
+      "category": "Gauri Draping",
+      "categoryMarathi": "गौरी महालक्ष्मी",
+      "image": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=1000&q=80"
+    },
+    {
+      "id": "g-3",
+      "title": "रुक्मिणी पारंपरिक सात्विक पॅटर्न",
+      "subtitle": "विठू-रुक्मिणी व वारकरी सात्त्विक पदर",
+      "category": "Gauri Draping",
+      "categoryMarathi": "गौरी महालक्ष्मी",
+      "image": "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=1000&q=80"
+    },
+    {
+      "id": "g-4",
+      "title": "अस्सल महाराष्ट्रीयन नऊवारी काष्टा",
+      "subtitle": "पारंपरिक येवला पैठणी काष्टा ड्रॅपिंग",
+      "category": "Nauvari",
+      "categoryMarathi": "नऊवारी व काष्टा",
+      "image": "https://images.unsplash.com/photo-1596704017254-9b121068fb31?auto=format&fit=crop&w=1000&q=80"
+    },
+    {
+      "id": "g-5",
+      "title": "पेशवाई मस्तानी रॉयल नऊवारी",
+      "subtitle": "नवरी व विवाह सोहळ्यासाठी राजेशाही लूक",
+      "category": "Nauvari",
+      "categoryMarathi": "नऊवारी व काष्टा",
+      "image": "https://images.unsplash.com/photo-1610030469668-932ec596e730?auto=format&fit=crop&w=1000&q=80"
+    },
+    {
+      "id": "g-6",
+      "title": "ब्राह्मणी नऊवारी तंत्रशुद्ध ड्रॅपिंग",
+      "subtitle": "अचूक बारीक ओचा व नेटके पदर प्लीट्स",
+      "category": "Nauvari",
+      "categoryMarathi": "नऊवारी व काष्टा",
+      "image": "https://images.unsplash.com/photo-1583391733975-02542a22fa5a?auto=format&fit=crop&w=1000&q=80"
+    },
+    {
+      "id": "g-7",
+      "title": "कोल्हापुरी काष्टा पॅटर्न",
+      "subtitle": "मर्दानी शान व चालताना संपूर्ण कम्फर्ट",
+      "category": "Nauvari",
+      "categoryMarathi": "नऊवारी व काष्टा",
+      "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=1000&q=80"
+    },
+    {
+      "id": "g-8",
+      "title": "राजलक्ष्मी रॉयल साडी ड्रॅपिंग",
+      "subtitle": "प्रतिष्ठित धोती स्टाईल व रुंद काठ पदर",
+      "category": "Nauvari",
+      "categoryMarathi": "नऊवारी व काष्टा",
+      "image": "https://images.unsplash.com/photo-1566737236500-c8ac43014a67?auto=format&fit=crop&w=1000&q=80"
+    },
+    {
+      "id": "g-9",
+      "title": "डबल पदर अप्सरा डिझायनर पॅटर्न",
+      "subtitle": "गडद हिरवी साडी व लाल-सोनेरी पंखा डबल पदर",
+      "category": "Designer",
+      "categoryMarathi": "डिझायनर व रॉयल",
+      "image": "https://images.unsplash.com/photo-1615886753866-79396abc446e?auto=format&fit=crop&w=1000&q=80"
+    },
+    {
+      "id": "g-10",
+      "title": "देवसेना सिनेमॅटिक रॉयल साडी",
+      "subtitle": "शाही थाट व फोटोशूटसाठी परफेक्ट ड्रॅपिंग",
+      "category": "Designer",
+      "categoryMarathi": "डिझायनर व रॉयल",
+      "image": "https://images.unsplash.com/photo-1605296867304-46d5465a13f1?auto=format&fit=crop&w=1000&q=80"
+    },
+    {
+      "id": "g-11",
+      "title": "कमळ (Lotus) पाकळी पॅटर्न",
+      "subtitle": "कमळाच्या पाकळ्यांप्रमाणे फुलणाऱ्या सुंदर प्लीट्स",
+      "category": "Designer",
+      "categoryMarathi": "डिझायनर व रॉयल",
+      "image": "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?auto=format&fit=crop&w=1000&q=80"
+    },
+    {
+      "id": "g-12",
+      "title": "कमर पंखा डिझायनर ॲक्सेंट",
+      "subtitle": "कमरेजवळ नाजूक वेस्टर्न-एथनिक पंखा प्लीट्स",
+      "category": "Designer",
+      "categoryMarathi": "डिझायनर व रॉयल",
+      "image": "https://images.unsplash.com/photo-1610030469830-4e386a3479d2?auto=format&fit=crop&w=1000&q=80"
+    },
+    {
+      "id": "g-13",
+      "title": "डबल पदर रॉयल साडी",
+      "subtitle": "दोन पदरांची भव्यता व रिच लूक",
+      "category": "Designer",
+      "categoryMarathi": "डिझायनर व रॉयल",
+      "image": "https://images.unsplash.com/photo-1621784563330-caee0b138a00?auto=format&fit=crop&w=1000&q=80"
+    },
+    {
+      "id": "g-14",
+      "title": "बटरफ्लाय / पंखा पदर पॅटर्न",
+      "subtitle": "खांद्यावर स्लिम व मॉडर्न एलिगंट प्लीट्स",
+      "category": "Designer",
+      "categoryMarathi": "डिझायनर व रॉयल",
+      "image": "https://images.unsplash.com/photo-1610030469911-37d4f54d1aa4?auto=format&fit=crop&w=1000&q=80"
+    },
+    {
+      "id": "g-15",
+      "title": "गोल साडी आधुनिक ड्रॅपिंग",
+      "subtitle": "सुटसुटीत, आरामदायक व दिवसभर वावरायला सोपी",
+      "category": "Designer",
+      "categoryMarathi": "डिझायनर व रॉयल",
+      "image": "https://images.unsplash.com/photo-1617627143778-592f155979ea?auto=format&fit=crop&w=1000&q=80"
+    },
+    {
+      "id": "g-16",
+      "title": "वर्कशॉप प्रात्यक्षिक व हँड्स-ऑन सराव",
+      "subtitle": "विद्यार्थिनींचा स्वतः हाताने प्रत्यक्ष साडी ड्रॅपिंग सराव",
+      "category": "Workshops",
+      "categoryMarathi": "वर्कशॉप सराव",
+      "image": "https://images.unsplash.com/photo-1583391733975-02542a22fa5a?auto=format&fit=crop&w=1000&q=80"
+    },
+    {
+      "id": "g-17",
+      "title": "प्री-प्लीटिंग, पिनिंग व फिनिशिंग",
+      "subtitle": "अचूक पदर, इस्त्री आणि वेळेची बचत करणारे तंत्र",
+      "category": "Workshops",
+      "categoryMarathi": "वर्कशॉप सराव",
+      "image": "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=1000&q=80"
+    },
+    {
+      "id": "g-18",
+      "title": "सर्टिफिकेट वितरण व आनंदी विद्यार्थिनी",
+      "subtitle": "1-डे वर्कशॉप यशस्वीरीत्या पूर्ण केल्याचे प्रमाणपत्र",
+      "category": "Certificates",
+      "categoryMarathi": "प्रमाणपत्र",
+      "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=1000&q=80"
+    },
+    {
+      "id": "g-19",
+      "title": "उत्सवी पैठणी साडी ड्रॅपिंग फिनिश",
+      "subtitle": "सण आणि पूजेसाठी परिपूर्ण महाराष्ट्रीयन सौंदर्य",
+      "category": "Gauri Draping",
+      "categoryMarathi": "गौरी महालक्ष्मी",
+      "image": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?auto=format&fit=crop&w=1000&q=80"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "साडी ड्रॅपिंग वर्कशॉपमध्ये काय शिकवले जाते?",
+      "a": "या वर्कशॉपमध्ये पारंपरिक नऊवारी, ब्राह्मणी, कोल्हापुरी, डिझायनर अप्सरा, देवसेना, कमळ, आणि मुख्यत्वे गौरी महालक्ष्मीचे 14 ते 15 प्रकार शिकवले जातात. तसेच अचूक प्लीट्स, पिनिंग, पदर सेटिंग आणि बॉडी फिटिंगचे प्रॅक्टिकल ज्ञान दिले जाते."
+    },
+    {
+      "q": "गौरी महालक्ष्मी साडी ड्रॅपिंग शिकवले जाते का?",
+      "a": "होय, हे या वर्कशॉपचे प्रमुख वैशिष्ट्य आहे! गौरी सणासाठी लागणारे विविध पारंपारिक व नजाकतदार साडी ड्रॅपिंग प्रकार पूर्ण प्रात्यक्षिकासह सविस्तर शिकवले जातात."
+    },
+    {
+      "q": "उभारलेल्या आणि बसलेल्या गौरीचे पॅटर्न शिकवले जातात का?",
+      "a": "होय, उभारलेल्या (Standing) तसेच बसलेल्या (Seated) दोन्ही प्रकारच्या गौरी मूर्तींसाठी साडी कशी नेसवावी याचे प्रत्यक्ष प्रशिक्षण दिले जाते, जेणेकरून सणाच्या दिवशी साडी अजिबात सुटणार किंवा घसरणार नाही."
+    },
+    {
+      "q": "नऊवारी साडी ड्रॅपिंग शिकवले जाते का?",
+      "a": "नक्कीच! नऊवारी काष्टा, ब्राह्मणी नऊवारी, कोल्हापुरी काष्टा आणि पेशवाई स्टाईल नऊवारी हे सर्व प्रकार प्रत्यक्ष प्रॅक्टिकलसह शिकवले जातात."
+    },
+    {
+      "q": "वर्कशॉप किती दिवसांचे आहे?",
+      "a": "हे 1 दिवसाचे सखोल (1-Day Intensive) प्रॅक्टिकल वर्कशॉप असते, जेणेकरून एकाच दिवसात सर्व महत्त्वाचे प्रकार प्रत्यक्ष शिकून घरी जाऊन लगेच प्रॅक्टिस करता येते."
+    },
+    {
+      "q": "वर्कशॉप कुठे आयोजित केले जाते?",
+      "a": "वर्कशॉप 'साईप्रभा हाऊस, जगताप हॉस्पिटल समोर, सिंहगड रोड, आनंद नगर, पुणे - 411051' येथील आमच्या स्टुडिओमध्ये आयोजित केले जाते."
+    },
+    {
+      "q": "वर्कशॉपसाठी आधी booking करावी लागते का?",
+      "a": "होय, प्रत्येकीकडे वैयक्तिक लक्ष देता यावे यासाठी आम्ही प्रत्येक बॅचमध्ये फक्त 8 ते 10 जागाच ठेवतो. त्यामुळे पूर्व नोंदणी (Advance Booking) आवश्यक आहे."
+    },
+    {
+      "q": "वैयक्तिक मार्गदर्शन मिळते का?",
+      "a": "होय, पूजा मॅडम स्वतः प्रत्येक विद्यार्थिनीच्या शेजारी उभे राहून तिच्या हातातील प्लेट्स, पिनिंग आणि फिटिंगमधील चुका तपासून जागेवरच योग्य मार्गदर्शन करतात."
+    },
+    {
+      "q": "पुढील workshop कधी आहे?",
+      "a": "पुढील वर्कशॉप आगामी शनिवार/रविवार आयोजित करण्यात येत आहे. अचूक तारीख आणि उपलब्ध वेळेसाठी तुम्ही खालील WhatsApp बटण किंवा 84469 17187 या क्रमांकावर संपर्क करू शकता."
+    },
+    {
+      "q": "Workshop booking कशी करायची?",
+      "a": "तुम्ही वेबसाइटवरील 'Book Your Seat' फॉर्म भरू शकता किंवा थेट '84469 17187' या नंबरवर कॉल किंवा WhatsApp मेसेज पाठवून आपली जागा निश्चित करू शकता."
+    }
+  ]
+}
